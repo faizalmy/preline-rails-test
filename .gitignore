@@ -141,6 +141,9 @@ config/database.local.yml
 /public/vite-dev/
 /public/vite-build/
 
+# Ignore built CSS files
+/app/assets/builds/
+
 # Ignore node_modules
 node_modules/
 
