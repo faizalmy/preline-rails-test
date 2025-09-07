@@ -9,10 +9,3 @@ document.addEventListener('turbo:load', () => {
     window.HSStaticMethods.autoInit();
   }
 });
-
-// Also initialize on DOMContentLoaded for initial page load
-document.addEventListener('DOMContentLoaded', () => {
-  if (window.HSStaticMethods) {
-    window.HSStaticMethods.autoInit();
-  }
-});
